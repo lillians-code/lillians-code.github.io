@@ -8,3 +8,4 @@ classes: wide
 ---
 
 Sample document listing for the collection `_portfolio`.
+[Launch app](https://sentimentsmart.herokuapp.com/){: .btn .btn--success}
