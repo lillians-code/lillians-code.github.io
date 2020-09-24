@@ -1,7 +1,5 @@
 ---
 title: "First blog post!"
-permalink: pretty
-date: 2020-09-24T18:38:52+00:00
 header:
   teaser: "/assets/images/500x300.png"
 categories: 
