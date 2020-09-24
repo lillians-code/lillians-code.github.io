@@ -1,6 +1,6 @@
 ---
 title: "Page A"
-permalink: /page-a/
+permalink: pretty
 date: 2020-09-24T18:38:52+00:00
 ---
 
