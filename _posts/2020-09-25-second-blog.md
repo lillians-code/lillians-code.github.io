@@ -1,7 +1,11 @@
 ---
 title: "second post"
-permalink: pretty
-date: 2020-09-25T18:39:14+00:00
+header:
+  teaser: "/assets/images/500x300.png"
+categories: 
+  - Jekyll
+tags:
+  - update
 ---
 
 (lorem ipsum)
