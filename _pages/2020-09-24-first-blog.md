@@ -1,6 +1,6 @@
 ---
-title: "first post"
-permalink: /blog/first-post
+title: "Page A"
+permalink: /page-a/
 date: 2020-09-24T18:38:52+00:00
 ---
 
