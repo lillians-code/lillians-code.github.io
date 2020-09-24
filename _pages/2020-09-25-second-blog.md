@@ -1,7 +1,7 @@
 ---
-title: "Page B"
-permalink: /page-b/
-date: 2011-06-23T18:39:14+00:00
+title: "second post"
+permalink: /blog/second-post
+date: 2020-09-25T18:39:14+00:00
 ---
 
 (lorem ipsum)
