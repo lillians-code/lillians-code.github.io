@@ -25,6 +25,8 @@ gallery:
 
 SentimentSmart is an app that predicts **positive, negative and neutral** emotions based on sentences.
 
+{% include gallery caption="Emotions." %}
+
 SentimentSmart performs with **92% accuracy** on previously seen sentences and with **78% accuracy** on completely unseen sentences.
 
 Practically, SentimentSmart can be used to analyse the sentiments of tweets on a variety of topics, or, in a retail setting, it can be used to generate critical customer satisfaction insights. SentimentSmart is not only able to detect sentiment, it also tells you which parts of the sentence contributed to the insight.
