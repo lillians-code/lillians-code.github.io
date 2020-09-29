@@ -1,30 +1,32 @@
 ---
-title: "Baz Boom Identity"
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+title: "SentimentSmart"
+excerpt: "SentimentSmart is an app that predicts positive, negative and neutral emotions based on sentences."
 header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
-sidebar:
-  - title: "Role"
-    image: http://placehold.it/350x250
-    image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+  image: /assets/images/SentimentSmart.jpg
+  teaser: assets/images/SentimentSmart.jpg
+# sidebar:
+#   - title: "Role"
+#     image: http://placehold.it/350x250
+#     image_alt: "logo"
+#     text: "Designer, Front-End Developer"
+#   - title: "Responsibilities"
+#     text: "Reuters try PR stupid commenters should isn't a business model"
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+  - url: /assets/images/pos.jpg
+    image_path: assets/images/pos.jpg
+    alt: "Positive sentiment"
+  - url: /assets/images/neu.jpg
+    image_path: assets/images/neu.jpg
+    alt: "Neutral sentiment"
+  - url: /assets/images/neg.jpg
+    image_path: assets/images/neg.jpg
+    alt: "Negative sentiment"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+SentimentSmart is an app that predicts **positive, negative and neutral** emotions based on sentences.
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+SentimentSmart performs with **92% accuracy** on previously seen sentences and with **78% accuracy** on completely unseen sentences.
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+Practically, SentimentSmart can be used to analyse the sentiments of tweets on a variety of topics, or, in a retail setting, it can be used to generate critical customer satisfaction insights. SentimentSmart is not only able to detect sentiment, it also tells you which parts of the sentence contributed to the insight.
+
+Here, I have used it to analyse whether the daily sentiment was positive, negative, or neutral for the **20 most tweet-abundant locations** around the world on the topic of **COVID-19**.
