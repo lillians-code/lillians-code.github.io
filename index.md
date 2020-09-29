@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
-header:
+header: "Lillian's website"
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/trees.jpg
@@ -12,11 +12,11 @@ header:
 excerpt: >
   I'm a junior data scientist with a background in scientific research. This website is where I display my thoughts, ideas, and projects.
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/SentimentSmart.jpg
+    alt: "SentimentSmart logo"
+    title: "SentimentSmart"
+    excerpt: "A webapp I created that predicts sentiments of text. Try it here!"
+    url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
