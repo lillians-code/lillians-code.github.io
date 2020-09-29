@@ -11,7 +11,7 @@ header:
       url: "/about/"
   caption: "Bushfire burnt trees, Kosciuszko national park, Feb 2020"
 excerpt: >
-  I'm a junior data scientist with a background in scientific research. This website is where I display my thoughts, ideas, and projects.
+  I'm a junior data scientist with a background in scientific research. This website is where I display my projects, thoughts and ideas.
 feature_row:
   - image_path: /assets/images/SentimentSmart.jpg
     alt: "SentimentSmart logo"
