@@ -13,7 +13,7 @@ gallery:
     image_path: assets/images/bluebart1.jpg
     alt: "Bart and Blue on a walk"
   - url: /assets/images/blue.jpg
-    image_path: assets/images/blue.jpg
+    image_path: assets/images/bluebart2.jpg
     alt: "Bart and Blue excited for the park"
 ---
 I am a newly minted data scientist (on top of being a regular scientist), and this is where I show off all my cool projects!
