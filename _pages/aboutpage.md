@@ -2,16 +2,28 @@
 title: "About me"
 permalink: /about/
 author_profile: False
+gallery:
+  - url: /assets/images/bart.jpg
+    image_path: assets/images/bart.jpg
+    alt: "Bart - Siberian husky, age: 8"
+  - url: /assets/images/blue.jpg
+    image_path: assets/images/blue.jpg
+    alt: "Blue - Swiss shepherd, age: 1 (this picture was taken on his birthday!)"
+  - url: /assets/images/bluebart1.jpg
+    image_path: assets/images/bluebart1.jpg
+    alt: "Bart and Blue on a walk"
+  - url: /assets/images/blue.jpg
+    image_path: assets/images/blue.jpg
+    alt: "Bart and Blue excited for the park"
 ---
+I am a newly minted data scientist (on top of being a regular scientist), and this is where I show off all my cool projects!
 
-This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+[insert cool story here]
 
-> Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi'a coladas. (And gettin' caught in the rain.)
+I have two amazing, fluffy good boys, Bart and Blue. One of my favourite things to do is to take them to the beach for a long swim and splash in the water. 
 
-...or something like this:
+{% include gallery caption="My two good boys, Bart and Blue." %}
 
-> The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.
-
-You should probably delete this page and create new pages for your content. Have fun!
+This is a short video introduction of me.
 
 {% include video id="l5Ld9hvZogA" provider="youtube" %}
