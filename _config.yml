@@ -258,7 +258,11 @@ jekyll-archives:
     category: /categories/:name/
     tag: /tags/:name/
 
+# Collections
+collections:
+  - portfolio
 
+  
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
