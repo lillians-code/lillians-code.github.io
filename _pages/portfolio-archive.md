@@ -7,7 +7,7 @@ entries_layout: grid
 classes: wide
 ---
 
-# SentimentSmart
+## SentimentSmart
 
 SentimentSmart is an app that predicts positive, negative and neutral emotions based on sentences.
 
