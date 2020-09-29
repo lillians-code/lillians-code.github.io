@@ -3,7 +3,7 @@ title: "SentimentSmart"
 excerpt: "SentimentSmart is an app that predicts positive, negative and neutral emotions based on sentences."
 header:
   image: /assets/images/SentimentSmart.jpg
-  teaser: assets/images/SentimentSmart.jpg
+  teaser: assets/images/SentimentSmart-rect.jpg
 gallery:
   - url: /assets/images/pos.jpg
     image_path: assets/images/pos.jpg
