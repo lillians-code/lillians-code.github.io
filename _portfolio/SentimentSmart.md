@@ -4,13 +4,6 @@ excerpt: "SentimentSmart is an app that predicts positive, negative and neutral 
 header:
   image: /assets/images/SentimentSmart.jpg
   teaser: assets/images/SentimentSmart.jpg
-# sidebar:
-#   - title: "Role"
-#     image: http://placehold.it/350x250
-#     image_alt: "logo"
-#     text: "Designer, Front-End Developer"
-#   - title: "Responsibilities"
-#     text: "Reuters try PR stupid commenters should isn't a business model"
 gallery:
   - url: /assets/images/pos.jpg
     image_path: assets/images/pos.jpg
