@@ -1,7 +1,7 @@
 ---
 title: ""
 layout: splash
-permalink: /
+# permalink: /
 date: 2020-03-23T11:48:41-04:00
 header: "Lillian's website"
   overlay_color: "#000"
