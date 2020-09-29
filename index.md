@@ -2,13 +2,14 @@
 layout: splash
 permalink: /
 hidden: true
-header: "Lillian's website"
+header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/trees.jpg
   actions:
     - label: "Learn more"
       url: "/about/"
+  caption: "Bushfire burnt trees, Kosciuszko national park, Feb 2020"
 excerpt: >
   I'm a junior data scientist with a background in scientific research. This website is where I display my thoughts, ideas, and projects.
 feature_row:
