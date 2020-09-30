@@ -14,14 +14,12 @@ gallery:
     alt: "Bart and Blue on a walk"
 ---
 
-![me]({{ site.url }}{{ site.baseurl }}/assets/images/headshot.jpg){: .align-center}
-
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/headshot.jpg" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/headshot-sml.jpg" alt="">
   <figcaption>This is me!</figcaption>
 </figure> 
 
-I am a newly minted [data scientist] and [ecologist], and this is where I show off all my cool projects!
+I am a newly minted [data scientist] as well as an [ecologist], and this is where I show off all my cool projects!
 
 I am a recent graduate from [General Assembly's Data Science Intensive course], which was a 12 week long, full time course that covered a variety of topics including data cleaning, exploratory data analysis, supervised and unsupervised machine learning techniques, neural net (Tensorflow), SQl, and natural language processing. If you'd like to read more about my experience, what I learned and my thoughts on the course, see [my blog post]!
 
@@ -48,7 +46,7 @@ Outside of my data science and ecology pursuits, I read books, train (gym or mua
 {% include video id="l5Ld9hvZogA" provider="youtube" %}
 
 
-[my blog post]: /blog/
+[my blog post]: https://www.lillian-zhang.com/data%20science/general-assembly-dsi-course-review/
 [General Assembly's Data Science Intensive course]: https://generalassemb.ly/education/data-science-immersive/sydney
 [data scientist]: /portfolio/
 [ecologist]: https://github.com/cyan-sunset/honours
