@@ -85,26 +85,26 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-179316909-1"
+    anonymize_ip         : false
 
 
 # Site Author
 author:
   name             : "Lillian"
   avatar           : "/assets/images/headshot.jpg"
-  bio              : "I am a junior data scientist and ecologist, learning to dream big."
+  bio              : "I am a junior data scientist and ecologist, learning to dream big. If you like what you see here, please get in contact!"
   location         : "Sydney, Australia"
   email            : "lillianzhang97@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:lillianzhang97@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+    - label: "Linkedin"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lillian--zhang/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
