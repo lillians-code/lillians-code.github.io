@@ -14,8 +14,8 @@ gallery:
     alt: "Bart and Blue on a walk"
 ---
 
-<figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/headshot-sml.jpg" alt="">
+<figure style="width: 350px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/headshot.jpg" alt="">
   <figcaption>This is me!</figcaption>
 </figure> 
 
