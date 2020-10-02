@@ -13,11 +13,11 @@ gallery:
     image_path: assets/images/bluebart1.jpg
     alt: "Bart and Blue on a walk"
 ---
-<!-- 
+
 <figure class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/headshot-sml.jpg" alt="">
   <figcaption>This is me!</figcaption>
-</figure>  -->
+</figure> 
 
 I am a newly minted [data scientist] as well as an [ecologist], and this is where I show off all my cool projects!
 
