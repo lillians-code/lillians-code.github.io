@@ -27,4 +27,4 @@ For this project I wanted to answer two main questions.
 tbc
 
 
-{% include gallery caption="Emotions." %}
+<!-- {% include gallery caption="Emotions." %} -->
