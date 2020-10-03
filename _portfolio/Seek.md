@@ -4,7 +4,7 @@ excerpt: "A thorough analysis of data jobs using information I web scraped from 
 date: 2020-09-23T18:38:52+00:00
 header:
   image: /assets/images/seek.png
-  teaser: assets/images/seek-teaser.png
+  teaser: assets/images/seek.png
 gallery:
   - url: /assets/images/pos.jpg
     image_path: assets/images/pos.jpg
