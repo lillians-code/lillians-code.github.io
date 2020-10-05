@@ -13,14 +13,14 @@ header:
 excerpt: >
   I'm a junior data scientist with a background in scientific research. This website is where I display my projects, thoughts and ideas.
 feature_row:
-  - image_path: /assets/images/SentimentSmart.jpg
+  - image_path: /assets/images/sentimentsmart/SentimentSmart.jpg
     alt: "SentimentSmart logo"
     title: "SentimentSmart"
     excerpt: "A web app I created that predicts sentiments of text. Try it here!"
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/ga-logo-small.png
+  - image_path: /assets/images/dsi-review/ga-logo-small.png
     alt: "General assembly"
     title: "General Assembly's Data Science Immersive course"
     excerpt: "Is it worth the hype?"
