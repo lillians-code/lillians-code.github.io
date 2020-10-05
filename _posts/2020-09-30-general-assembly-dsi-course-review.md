@@ -1,8 +1,8 @@
 ---
 title:  "General Assembly's data science immersive course - is it worth the hype?"
 header:
-  image: /assets/images/ga-logo.png
-  teaser: "/assets/images/ga-logo-small.png"
+  image: /assets/images/dsi-review/ga-logo.png
+  teaser: "/assets/images/dsi-review/ga-logo-small.png"
 categories: 
   - data science
 tags:
@@ -15,7 +15,7 @@ The course was a 12 week long, full time course that covered a variety of topics
 
 In week 1, we were shown a graph similar to the one below, and told with very kind words that we will experience this, possibly multiple times throughout this course, and that it happens to everyone. 
 
-![dunning kruger effect]({{ site.url }}{{ site.baseurl }}/assets/images/dk-effect.png){: .align-center}
+![dunning kruger effect]({{ site.url }}{{ site.baseurl }}/assets/images/dsi-review/dk-effect.png){: .align-center}
 
 We all laughed it off. 
 
@@ -40,7 +40,7 @@ I think the capstone project could have actually been introduced much **later** 
 Despite being such a highly intensive and demanding course, and despite the growing pains that came with being the first DSI cohort to study entirely online in COVID-19 times, I feel that overall the course was a success for all involved. I also feel that this is can largely be attributed to a wealth of support from Lay, the instructors, and the career coaches, and for that I am very grateful.
 
 
-![graduation photo]({{ site.url }}{{ site.baseurl }}/assets/images/dsi11yay.png){: .align-center}
+![graduation photo]({{ site.url }}{{ site.baseurl }}/assets/images/dsi-review/dsi11yay.png){: .align-center}
 
 
 <!-- 
