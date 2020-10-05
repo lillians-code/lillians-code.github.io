@@ -27,13 +27,13 @@ feature_row:
     url: "data%20science/general-assembly-dsi-course-review/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  # - image_path: /assets/images/mm-free-feature.png
-  #   alt: "100% free"
-  #   title: "100% free"
-  #   excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-  #   url: "/docs/license/"
-  #   btn_class: "btn--primary"
-  #   btn_label: "Learn more"      
+  - image_path: /assets/images/seek/seek.png
+    alt: "Seek analysis"
+    title: "Data jobs on seek.com"
+    excerpt: "A thorough analysis of data jobs using information I web scraped from Seek.com"
+    url: "/portfolio/Seek/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"      
 ---
 
 {% include feature_row %}
