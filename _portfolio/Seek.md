@@ -5,16 +5,6 @@ date: 2020-09-23T18:38:52+00:00
 header:
   image: /assets/images/seek/seek.png
   teaser: assets/images/seek/seek.png
-# gallery:
-#   - url: /assets/images/pos.jpg
-#     image_path: assets/images/pos.jpg
-#     alt: "Positive sentiment"
-#   - url: /assets/images/neu.jpg
-#     image_path: assets/images/neu.jpg
-#     alt: "Neutral sentiment"
-#   - url: /assets/images/neg.jpg
-#     image_path: assets/images/neg.jpg
-#     alt: "Negative sentiment"
 ---
 [See Source Code](https://github.com/cyan-sunset/seek.com-data-jobs){: .btn .btn--info}
 
@@ -88,10 +78,66 @@ I needed to remove all punctuation, html tags, and newline markers (\n) from the
 
 I investigated which words in job titles and job descriptions that best predict job salary.
 
-I framed these questions as classification problems by dividing job salaries into high and low groups using the median salary. 
+I framed these questions as classification problems by dividing job salaries into high and low groups using the median salary.
+
+For each classification model, I fitted a Random Forest Classifier and a Logistic Regression. The Logistic Regression consistently performed better in each case, so those are the results shown here.
+
+##### Which words in job titles best predict salary?
+
+I found that managerial/leadership roles and skills are highly valued in terms of salary, as expected. What's perhaps less obvious is that in data related jobs, business analysts and people with financial backgrounds are likely to earn more than their peers. Furthermore, people who deal with risk in their work also earn more.
+
+Model cross validation score: 0.75
 
 ![example job]({{ site.url }}{{ site.baseurl }}/assets/images/seek/job-titles-highlow.png){: .align-center}
 
+This is a plot I made that shows the SHAP values (values that represent the size of effect) of the top 30 words in job titles that make the most contribution, in either direction, to salary.
+
+##### Which words in job descriptions best predict salary?
+
+Similar results were found here as in the job title analysis - seniority modifier words like "senior" and "lead" tend to attract higher salaries, as well as leadership skills.
+
+Interestingly, it appears that communication skills and customer service are not as highly valued in salary as I would have thought.
+
+Model cross validation score: 0.83
+
 ![example job]({{ site.url }}{{ site.baseurl }}/assets/images/seek/job-desc-highlow.png){: .align-center}
 
-<!-- {% include gallery caption="Emotions." %} -->
+Similar to above, this shows the SHAP values of the top 30 words in job descriptions that make the most contribution to salary.
+
+#### Question 2 - What are the main differences between data related jobs in Sydney and Melbourne?
+
+##### Are different skills in demand in Sydney and Melbourne?
+
+Here, I looked at both job titles and job descriptions through a classification of salary as above. It's clear that different skills are in demand in Sydney vs Melbourne.
+
+![example job]({{ site.url }}{{ site.baseurl }}/assets/images/seek/skills.png){: .align-center}
+
+Skills that are highly sought after (and compensated for) in Sydney are shown in green and skills that are sought after in Melbourne are shown in red.
+
+Improvements to the model could definitely be made here as some details that shouldn't have shown up, did show up in the results, such as area codes for Sydney and Melbourne (while it makes a lot of sense, it's not very informative). If I could do this again, I would go back and do some more data cleaning to remove the area codes, and some of the job-specific ID numbers.
+
+##### Which sectors are currently hiring the most in each city?
+
+Sectors such as insurance, customer service, and finance are hiring the most in Sydney while sectors such as government defence, science & technology, education & training, and retail are hiring the most data professionals in Melbourne.
+
+![example job]({{ site.url }}{{ site.baseurl }}/assets/images/seek/sectors.png){: .align-center}
+
+Similar to above, sectors hiring the most in Sydney are shown in green and sectors hiring the most in Melbourne are shown in red.
+
+##### Is there a difference in salary in Sydney vs Melbourne? How much?
+
+I went into this question expecting a difference in salary between the two cities, but I absolutely did not expect the difference to be so large. There was definitely a significant difference in salary for data jobs in Sydney and Melbourne - and it was a shocking $10,615 on average (p<0.05).
+
+For this analysis, I performed a simple t-test. 
+
+![example job]({{ site.url }}{{ site.baseurl }}/assets/images/seek/salary-syd-mel.png){: .align-center}
+
+## Main takeaway
+
+Now that I have completed this project, I can say that I did actually enjoy it. It was definitely less enjoyable during, but learning anything new is always an uncomfortable process.
+
+This was my first real foray into web scraping, and it was definitely a lot of frustration and trial-and-error until I got the information I needed (not to mention a LOT of time to run my web scraping code - it took more than 5 hours I think, which is a lot considering I had a deadline!). 
+
+But, I have learned so many new little tricks that I will keep up my sleeve for my next scrape, as well as the differences between ensemble models and regular classifiers in practise.
+
+Thanks for reading to the end! :)
