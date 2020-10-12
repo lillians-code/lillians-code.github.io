@@ -26,4 +26,6 @@ Practically, SentimentSmart can be used to analyse the sentiments of tweets on a
 
 Here, I have used it to analyse whether the daily sentiment was positive, negative, or neutral for the **20 most tweet-abundant locations** around the world on the topic of **COVID-19**.
 
+Note: App runs a little slow sometimes. Sorry!
+
 [Launch SentimentSmart](https://sentimentsmart.herokuapp.com/){: .btn .btn--success} [See Source Code](https://github.com/cyan-sunset/sentimentsmart){: .btn .btn--info}
