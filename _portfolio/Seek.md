@@ -6,7 +6,7 @@ header:
   image: /assets/images/seek/seek.png
   teaser: assets/images/seek/seek.png
 ---
-[See Source Code](https://github.com/cyan-sunset/seek.com-data-jobs){: .btn .btn--info}
+[See source code and slide deck](https://github.com/cyan-sunset/seek.com-data-jobs){: .btn .btn--info}
 
 For this project I wanted to answer two main questions.
 
