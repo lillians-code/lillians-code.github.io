@@ -34,4 +34,4 @@ All in all, I'd consider this a huge success in teamwork and overcoming team org
 
 
 [C3.ai COVID-19 grand challenge]: https://c3.ai/c3-ai-covid-19-grand-challenge/
-[produce interesting insights]: 
+[produce interesting insights]: https://www.lillian-zhang.com/portfolio/WiD/
