@@ -21,7 +21,7 @@ gallery:
 
 I am a newly minted [data scientist] as well as an [ecologist], and this is where I show off all my cool projects!
 
-I am a recent graduate from [General Assembly's Data Science Intensive course], which was a 12 week long, full time course that covered a variety of topics including data cleaning, exploratory data analysis, supervised and unsupervised machine learning techniques, neural net (Tensorflow), SQl, and natural language processing. If you'd like to read more about my experience, what I learned and my thoughts on the course, see [my blog post]!
+I am a recent graduate from [General Assembly's Data Science Intensive course], which was a 12 week long, full time course that covered a variety of topics including data cleaning, exploratory data analysis, supervised and unsupervised machine learning techniques, neural net (Tensorflow), SQL, and natural language processing. If you'd like to read more about my experience, what I learned and my thoughts on the course, see [my blog post]!
 
 ## Why data science?
 
