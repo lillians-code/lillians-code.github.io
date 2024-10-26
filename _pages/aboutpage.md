@@ -1,7 +1,7 @@
 ---
 title: "About me"
 permalink: /about/
-author_profile: False
+author_profile: True
 gallery:
   - url: /assets/images/bart2024.jpg
     image_path: assets/images/bart2024.jpg
