@@ -1,7 +1,5 @@
 ---
-title: "About me"
-permalink: /about/
-author_profile: False
+title: "About me (Now archived)"
 gallery:
   - url: /assets/images/bart.jpg
     image_path: assets/images/bart.jpg
@@ -12,6 +10,12 @@ gallery:
   - url: /assets/images/bluebart1.jpg
     image_path: assets/images/bluebart1.jpg
     alt: "Bart and Blue on a walk"
+
+categories: 
+  - archive
+tags:
+  - life
+  - experience
 ---
 
 <figure style="width: 350px" class="align-center">
