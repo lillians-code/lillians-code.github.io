@@ -13,6 +13,13 @@ header:
 excerpt: >
   I'm a Senior Data Scientist with a background in scientific research. This website is where I display my projects, thoughts and ideas.
 feature_row:
+  - image_path: /assets/images/iris/iris.png
+    alt: "Iris prediction"
+    title: "Project: Iris prediction using a deep neural network"
+    excerpt: "A story of persistence and deployment frustrations"
+    url: "/portfolio/Iris/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more" 
   - image_path: /assets/images/sentimentsmart/SentimentSmart.jpg
     alt: "SentimentSmart logo"
     title: "Project: SentimentSmart"
@@ -34,13 +41,6 @@ feature_row:
     url: "/portfolio/Seek/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
-  - image_path: /assets/images/iris/iris.png
-    alt: "Iris prediction"
-    title: "Project: Iris prediction using a deep neural network"
-    excerpt: "A story of persistence and deployment frustrations"
-    url: "/portfolio/Iris/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more" 
 ---
 
 {% include feature_row %}
