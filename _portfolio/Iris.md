@@ -48,6 +48,8 @@ This was harder than expected to say the least. I had initially planned to use P
 
 I decided to change my approach at this point because I'm not prepared to spend real dollars to make this happen. After a day of fiddling around with nginx and gunicorn config, I managed to deploy my app on an AWS EC2 instance [following this article], and set it up to link to my custom subdomain using [this other article], with some debugging (read: a lot of debugging) here and there where it all fell apart and the issues weren't covered by these articles or Stackoverflow.
 
+[Launch Iris predictor](https://iris.lillian-zhang.com/){: .btn .btn--success} [See source code](https://github.com/lillians-code/iris-dnn){: .btn .btn--info}
+
 
 [following this article]: https://plainenglish.io/community/deploying-a-flask-application-on-ec2-dab5d3
 

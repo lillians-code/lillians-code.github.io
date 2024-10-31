@@ -34,6 +34,13 @@ feature_row:
     url: "/portfolio/Seek/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
+  - image_path: /assets/images/iris/iris.png
+    alt: "Iris prediction"
+    title: "Project: Iris prediction using a deep neural network"
+    excerpt: "A story of persistence and deployment frustrations"
+    url: "/portfolio/Iris/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more" 
 ---
 
 {% include feature_row %}
